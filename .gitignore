@@ -26,3 +26,34 @@ Thumbs.db
 
 # Logs
 *.log
+PS C:\Users\LENOVO\OneDrive\Documents\threatlens\backend> Get-Content .gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Ollama / model files
+*.gguf
+
+# Logs
+*.log
+# Generated dashboard
+threatlens_dashboard.html
