@@ -1,0 +1,62 @@
+[
+  {
+    "event_id": "EVT-000001",
+    "timestamp": "2026-10-06T08:41:22Z",
+    "user_id": "alice",
+    "device_id": "LAPTOP-07",
+    "src_ip": "185.23.91.44",
+    "event_type": "LOGIN",
+    "action": "successful_login",
+    "status": "success",
+    "country": "Germany",
+    "usual_country": "India"
+  },
+  {
+    "event_id": "EVT-000002",
+    "timestamp": "2026-10-06T08:43:05Z",
+    "user_id": "alice",
+    "device_id": "LAPTOP-07",
+    "src_ip": "185.23.91.44",
+    "event_type": "PRIVILEGE_CHANGE",
+    "action": "role_changed",
+    "status": "success",
+    "old_role": "employee",
+    "new_role": "admin"
+  },
+  {
+    "event_id": "EVT-000003",
+    "timestamp": "2026-10-06T08:46:13Z",
+    "user_id": "alice",
+    "device_id": "LAPTOP-07",
+    "src_ip": "185.23.91.44",
+    "event_type": "FILE_ACCESS",
+    "action": "read",
+    "status": "success",
+    "resource": "payroll_2026.xlsx",
+    "resource_sensitivity": "high"
+  },
+  {
+    "event_id": "EVT-000004",
+    "timestamp": "2026-10-06T08:47:10Z",
+    "user_id": "alice",
+    "device_id": "LAPTOP-07",
+    "src_ip": "185.23.91.44",
+    "event_type": "USB",
+    "action": "device_connected",
+    "status": "success",
+    "resource": "USB-8821"
+  },
+  {
+    "event_id": "EVT-000005",
+    "timestamp": "2026-10-06T08:49:03Z",
+    "user_id": "alice",
+    "device_id": "LAPTOP-07",
+    "src_ip": "185.23.91.44",
+    "event_type": "FILE_TRANSFER",
+    "action": "copy",
+    "status": "success",
+    "resource": "payroll_2026.xlsx",
+    "resource_sensitivity": "high",
+    "destination": "USB-8821"
+  }
+]
